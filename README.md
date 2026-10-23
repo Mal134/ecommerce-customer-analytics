@@ -14,8 +14,10 @@ An end-to-end data analytics project that transforms online retail transactions 
 
 Python · PostgreSQL · Pandas · NumPy · Scikit-learn · Streamlit · Matplotlib
 
-## Project Structure
 
+## 📁 Project Structure
+
+```text
 ecommerce-customer-analytics/
 │
 ├── app.py
@@ -35,20 +37,45 @@ ecommerce-customer-analytics/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
-## Getting Started
+##  Getting Started
 
-1. Clone the repository.
-2. Create and activate a Python virtual environment.
-3. Install dependencies from `requirements.txt`.
-4. Configure your local PostgreSQL connection using environment variables.
-5. Run the data preparation and analysis scripts.
-6. Launch the dashboard using `streamlit run app.py`.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Mal134/ecommerce-customer-analytics.git
+   cd ecommerce-customer-analytics
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Configure your PostgreSQL connection using environment variables.
+
+5. Run the dashboard:
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Results
 
-The reported development run processed 805,549 purchase rows across 36,969 invoices and produced four customer clusters, with a reported silhouette score of 0.3653.
+- **805,549** purchase records processed
+- **36,969** invoices analyzed
+- **5,878** customers included
+- **4 customer segments** identified
+- **0.3653** reported silhouette score
+  
 
+*Results reflect the reported development run and may vary with different data or configurations.*
+  
 ## Data and Configuration
 
 Use an appropriately licensed dataset. Do not commit credentials, private data, or local environment files. Configure database access locally before running the project.

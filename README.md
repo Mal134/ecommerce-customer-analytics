@@ -16,7 +16,25 @@ Python · PostgreSQL · Pandas · NumPy · Scikit-learn · Streamlit · Matplotl
 
 ## Project Structure
 
-Update this section to match the actual files in the repository.
+ecommerce-customer-analytics/
+│
+├── app.py
+├── load_warehouse.py
+├── customer_segmentation.py
+├── apriori_recommendations.py
+│
+├── data/
+│   └── README.md
+│
+├── outputs/
+│   ├── customer_segments.csv
+│   ├── association_rules.csv
+│   ├── readable_product_recommendations.csv
+│   └── frequent_itemsets.csv
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 ## Getting Started
 
